@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Jenkins Suite]">
+  <test name="EditEmployee Test(failed)">
+    <classes>
+      <class name="com.Intelli.Jenkins.Jenkins.EditEmployee">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="empChanged"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Intelli.Jenkins.Jenkins.EditEmployee -->
+      <class name="com.Intelli.Jenkins.Jenkins.AddEmployee">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Intelli.Jenkins.Jenkins.AddEmployee -->
+      <class name="com.Intelli.Jenkins.Jenkins.DeleteEmployee">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Intelli.Jenkins.Jenkins.DeleteEmployee -->
+    </classes>
+  </test> <!-- EditEmployee Test(failed) -->
+  <test name="DeleteEmplooyee Test(failed)">
+    <classes>
+      <class name="com.Intelli.Jenkins.Jenkins.AddEmployee">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Intelli.Jenkins.Jenkins.AddEmployee -->
+      <class name="com.Intelli.Jenkins.Jenkins.EditEmployee">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Intelli.Jenkins.Jenkins.EditEmployee -->
+      <class name="com.Intelli.Jenkins.Jenkins.DeleteEmployee">
+        <methods>
+          <include name="empDeleted"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Intelli.Jenkins.Jenkins.DeleteEmployee -->
+    </classes>
+  </test> <!-- DeleteEmplooyee Test(failed) -->
+</suite> <!-- Failed suite [Jenkins Suite] -->

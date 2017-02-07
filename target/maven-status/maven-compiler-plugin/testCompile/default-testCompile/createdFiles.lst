@@ -1,0 +1,4 @@
+com\Inteli\Jenkins\testUtils\Helper.class
+com\Intelli\Jenkins\Jenkins\AddEmployee.class
+com\Intelli\Jenkins\Jenkins\DeleteEmployee.class
+com\Intelli\Jenkins\Jenkins\EditEmployee.class
